@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Earthmeat</title>
+    <title>AIプランナー育成支援：AI活用ならエデュテックパートナーズ</title>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= analytics_init if Rails.env.production? %>
     <%= analytics_init if GoogleAnalytics.valid_tracker? %>
-    <meta name="keywords" content="大豆肉,ヴィーガン,加工肉,Earthmeat">
-　　<meta name="description" content="ライフスタイルの多彩な広がりに応える新たな食文化の創造へ。earthmeatは、ヨーロッパ生まれのやさしいお肉。">
+    <meta name="keywords" content="AI活用,AI企画,AIビジネス,AIセミナー,IoTセミナー,AI事例">
+　　<meta name="description" content="AIビジネスプランナーを育成！AIのビジネス活用にお困りのあなたに、エデュテックパートナーズはAIビジネス企画立案ノウハウを提供します。">
   </head>
   <body>
     <%= render 'layouts/header' %>
     <div class="container">
       <%= yield %>
     </div>
-    <%= render 'layouts/footer' %>
   </body>
 </html>
