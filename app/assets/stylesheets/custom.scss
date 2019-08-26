@@ -25,6 +25,11 @@ textarea {
 }
 
 
+.row {
+    margin-right: -15px; /* ←マイナス側へ数値を大きくしてみよう */
+    margin-left: -15px;  /* ←マイナス側へ数値を大きくしてみよう */
+}
+
 
 /* navigation */  
 .nav {
