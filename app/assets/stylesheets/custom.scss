@@ -51,31 +51,6 @@ textarea {
 }
 
 
-/* top-message */
-.jumbotron h1 {
-  margin: 0;
-  padding: 15px;
-  font-size: 30px;
-  color: #ffffff;
-  text-align: center;
-  font-family: HiraKakuPro;
-}
-  
-.jumbotron p {
-  margin: 0;
-  padding: 15px;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-}
-
-.jumbotron {
-  position: relative;
-  height: 50vh;
-  background-size: cover;
-}
-
-
 .logo2 p {
   text-align: center;
   margin-top: -10px;
@@ -110,6 +85,7 @@ textarea {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
+  letter-spacing: 1.0em;
  }
  
   h8 {
